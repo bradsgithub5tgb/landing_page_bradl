@@ -1,0 +1,37 @@
+
+* {
+    box-sizing: border-box
+}
+
+body {
+margin: 0;
+}
+
+header {
+    padding: 16px;
+    
+}
+h1 {
+    text-align: center;
+
+}
+body > section {
+min-height: 200px;
+padding : 14px;
+}
+ body > section:nth-child(odd) {
+background-color: #eee;
+ }
+ #pricing {
+display: flex;
+justify-content: space-evenly;
+
+ }
+
+ .price-card {
+     text-align: center;
+ }
+ .price-card > .price {
+display: block;
+
+ }
